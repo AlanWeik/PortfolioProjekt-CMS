@@ -9,11 +9,11 @@ Text Domain: Portfolio Projekt
 */
 
 
-#header{
-    color:white;
+header {
+    color:rgb(230, 113, 113);
 }
 .green-bg {
-    background: linear-gradient(rgb(231, 114, 114), rgba(0,0,0, .9));
+    background: linear-gradient(rgb(230, 113, 113), rgba(0,0,0, 1));
 }
 
 .generic {
@@ -22,8 +22,8 @@ Text Domain: Portfolio Projekt
 
 .page-footer {
     text-align: center;
-    color: black;
-    background: blanchedalmond;
+    color: white;
+    background: black;
     align-content:space-around;
 }
 .hero-img {
