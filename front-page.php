@@ -9,7 +9,7 @@ $heroImage = $heroImageArray['sizes']['large'];
 ?>
 
 
-  <section class="green-bg" id="hero">
+<section class="green-bg" id="hero">
     <div class="container">
       <div class="d-flex flex-row-reverse justify-content-center p-4">
         <div class="row d-flex flex-row-reverse">
