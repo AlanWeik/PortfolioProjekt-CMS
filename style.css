@@ -9,8 +9,9 @@ Text Domain: Portfolio Projekt
 */
 
 
-header {
-    color:rgb(230, 113, 113);
+.navbar {
+    background:rgb(230, 113, 113) !important;
+
 }
 .green-bg {
     background: linear-gradient(rgb(230, 113, 113), rgba(0,0,0, 1));
@@ -20,13 +21,14 @@ header {
     padding: 100px 0;
 }
 
+.hero-img {
+    width: 100%;
+    align-self: center;
+}
+
 .page-footer {
     text-align: center;
     color: white;
     background: black;
     align-content:space-around;
-}
-.hero-img {
-    width: 100%;
-    align-self: center;
 }
