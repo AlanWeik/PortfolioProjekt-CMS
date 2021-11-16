@@ -1,5 +1,8 @@
 <?php
 get_header();
+$heroImageArray = get_field('page_image');
+$heroImage = $heroImageArray['sizes']['large'];
+$image = get_field("image");
 ?>
 
 <!DOCTYPE html>
@@ -12,9 +15,16 @@ get_header();
 </head>
 <body class>
     <section class="portfolioBody">   
-    
+            
+
                 <h1>I am the portfolio page. </h1>
-                <h1>More stuff</h1>
+                <h1>Add your images here.</h1>
+                <div>
+                <?php
+                echo the_content();
+                ?>
+                </div>
+                
     </section>
 </body>
 </html>
