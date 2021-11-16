@@ -10,12 +10,14 @@ get_header();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body class>
-    <section class="portfolioBody">   
+<body class="contactBody">
+    <h1>I am the contact page. </h1>
     
-                <h1>I am the portfolio page. </h1>
-                <h1>More stuff</h1>
-    </section>
+    <?php
+
+        echo the_content();
+    ?>
+    
 </body>
 </html>
 
