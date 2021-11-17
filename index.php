@@ -2,7 +2,6 @@
 get_header();
 $heroImageArray = get_field('page_image');
 $heroImage = $heroImageArray['sizes']['large'];
-$image = get_field("image");
 ?>
 
 <!DOCTYPE html>
