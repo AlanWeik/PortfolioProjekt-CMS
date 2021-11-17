@@ -8,7 +8,6 @@ $heroImageArray = get_field('page_image');
 $heroImage = $heroImageArray['sizes']['large'];
 ?>
 
-
 <section class="homeBody" id="hero">
     <div class="container">
       <div class="d-flex flex-row-reverse justify-content-center p-4">
@@ -31,6 +30,5 @@ $heroImage = $heroImageArray['sizes']['large'];
 </section>
 
 <?php
-
 get_footer();
 ?>
